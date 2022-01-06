@@ -1,34 +1,35 @@
 /**
  * List Comments
  */
-exports.list = (req, h) => {
-  return '';
+exports.list = (request, h) => {
+  console.log('reply: ==               ',reply);
+  return 'Hello World!';
 };
 
 /**
  * Get Comment by ID
  */
-exports.get = (req, h) => {
-  return '';
+exports.get = (request, h) => {
+  return 'Hello World!';
 };
 
 /**
  * POST a Comment
  */
-exports.create = (req, h) => {
-  return '';
+exports.create = (request, h) => {
+  return 'Hello World!';
 };
 
 /**
  * PUT | Update Comment by ID
  */
-exports.update = (req, h) => {
-  return '';
+exports.update = (request, h) => {
+  return 'Hello World!';
 };
 
 /**
  * Delete Comment by ID
  */
-exports.remove = (req, h) => {
-  return '';
+exports.remove = (request, h) => {
+  return 'Hello World!';
 };
