@@ -1,0 +1,25 @@
+{
+  "name": "recruitment-tracker-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityajain-Infobeans/recruitment-tracker-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityajain-Infobeans/recruitment-tracker-back-end/issues"
+  },
+  "homepage": "https://github.com/adityajain-Infobeans/recruitment-tracker-back-end#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "dotenv": "^10.0.0",
+    "hapi-sequelizejs": "^4.5.0",
+    "mysql2": "^2.3.3"
+  }
+}
